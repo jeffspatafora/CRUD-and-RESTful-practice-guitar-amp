@@ -1,0 +1,2 @@
+class GuitarAmplifier < ApplicationRecord
+end

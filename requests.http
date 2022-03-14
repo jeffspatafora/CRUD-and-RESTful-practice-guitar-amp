@@ -1,0 +1,29 @@
+### Index
+GET http://localhost:3000/guitaramp
+
+### Create
+POST http://localhost:3000/guitaramp
+Content-Type: application/json
+
+{
+  "brand": "Test", 
+  "model": "Test", 
+  "price": 1000, 
+  "image_url": "test"
+}
+
+### Show
+GET http://localhost:3000/guitaramp/8
+
+### update
+PATCH http://localhost:3000/guitaramp/8
+Content-Type: application/json 
+
+{
+  "brand": "Dr. Z", 
+  "price": 2000,
+  "image_url": "http://drzamps.com/"
+}
+
+### destroy
+DELETE http://localhost:3000/guitaramp/9
